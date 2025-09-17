@@ -1,0 +1,98 @@
+      /* Fundo da página */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #3b5998; /* fundo sólido igual à foto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card principal */
+.card {
+    background: #fff;
+    width: 80%;
+    max-width: 850px;
+    padding: 25px 30px;
+    border-radius: 16px;
+    border: 1px solid purple; /* borda fina roxa */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    position: relative;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Cabeçalho do card */
+.cartao {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.cartao h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* preto igual à foto */
+    flex: 1;
+}
+
+.icon {
+    font-size: 26px;
+    margin-right: 12px;
+    color: black; /* preto igual à foto */
+}
+
+.cartao a {
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black; /* preto igual à foto */
+}
+
+.cartao a:hover {
+    color: #e74c3c; /* vermelho no hover */
+}
+
+/* Texto */
+p {
+    margin-bottom: 18px;
+    text-align: justify;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Botão fixo "ir para o início" */
+.inicio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1e2f5c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: background 0.3s ease;
+}
+
+.inicio:hover {
+    background: #3b5998;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site teste de login como atividade de aprendizado">
+  <meta name="keywords" content="HTML, CSS, Javascript, programação, login">
+  <meta name="author" content="João Paulo">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/login.js" defer></script>
+  <link rel="shortcut icon" href="img/connect-Aprendiz.png" type="image/x-icon">
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+
+    <p id="horas">???</p>
+
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="text" name="txt" id="email" required>
+    
+      <label for="senha">Senha:</label>
+      <input type="password" name="password" id="senha" required>
+    
+      <label for="confirma">Confirme a senha:</label>
+      <input type="password" id="confirma" name="confirma" required>
+    
+      <div class="option">
+        <label>
+          <input type="checkbox"> Lembrar
+        </label>
+        <a href="recuperar.html">Forgot password?</a>
+      </div>
+    
+      <button type="button" onclick="Entrar()">Entrar</button>
+
+      <div id="mensagem" class="mensagem"></div>
+    </form>
+    
+  </div>
+
+  
+</body>
+</html>

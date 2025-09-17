@@ -1,0 +1,144 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #3b5998, #1e2f5c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container do formulário */
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px 35px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Título */
+.container h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1e2f5c;
+  font-size: 28px;
+}
+
+/* Texto explicativo */
+.container p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #1e2f5c;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #3b5998;
+  outline: none;
+  box-shadow: 0 0 6px rgba(59, 89, 152, 0.4);
+}
+
+/* Checkbox + aviso */
+.option {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #444;
+}
+
+.option label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.option input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #3b5998; /* cor do checkbox */
+}
+
+.option p {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1e2f5c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #3b5998;
+  transform: scale(1.02);
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+  }
+  
+  button {
+    font-size: 15px;
+  }
+}
