@@ -15,7 +15,9 @@ A ideia é oferecer um ambiente digital onde seja possível:
 
 ## 📂 Estrutura do projeto
 - `abertura.html` → Página inicial com botões de acesso.  
-- `login.html` → Página de login com validações.  
+- `login.html` → Página de login com validações.
+- `curso.html`Página de cursos.
+- `Nós.html`Página explicando sobre o site.
 - `recuperar.html` → Página de recuperação de senha.  
 - `cadastro.html` → (em desenvolvimento) Página de cadastro de novos usuários.  
 - `css/` → Estilos separados para cada parte do projeto.  
