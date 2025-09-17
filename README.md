@@ -37,13 +37,12 @@ Ainda não é a versão final, mas já possui as seguintes funcionalidades:
 - [x] Página inicial (`abertura.html`) com botões de acesso.
 - [x] Página de login (`login.html`) com validação de campos.
 - [x] Página de recuperação de senha (`recuperar.html`).
-- [ ] Página de cadastro (`cadastro.html`).
+- [x] Página de cadastro (`cadastro.html`).
 - [ ] Página principal/home após login.
 - [ ] Integração com banco de dados (futuro).
-- [ ] Sistema de autenticação real.
-- [ ] Área de cursos.
+- [x] Área de cursos.
 - [ ] Área de vagas.
-- [ ] Página "Sobre Nós"(sendo feito).
+- [x] Página "Sobre Nós".
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
